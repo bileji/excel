@@ -1,0 +1,30 @@
+{
+    "name" : "bileji/excel",
+    "description" : "export excel",
+    "type" : "library",
+    "license" : "MIT",
+    "keywords" : [
+        "excel"
+    ],
+    "authors" : [
+        {
+            "name" : "shuc324",
+            "email" : "shuc324@gmail.com"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0"
+    },
+    "require-dev" : {
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Bileji\\Excel\\" : ""
+        }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0.x-dev"
+        }
+    }
+}
